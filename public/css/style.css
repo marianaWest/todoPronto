@@ -1,0 +1,52 @@
+h1 {
+    color: rgba(176, 51, 23, 1);
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+}
+
+ul, h2, input, a {
+    font-family: 'Signika', sans-serif;
+}
+
+li {
+    font-size: 2.5rem;
+}
+
+input {
+    font-size: 2rem;
+}
+
+a {
+    font-size: 2rem;
+}
+
+h2 {
+    color: rgba(176, 51, 23, 0.9);
+}
+
+/* .completed {
+    text-decoration: line-through;
+    color: gray;
+} */
+
+
+
+.del {
+    color: gray;
+    font-size: 2rem;
+}
+.del:hover {
+    cursor: pointer;
+    color: rgba(233, 222, 222, 0.8);
+}
+
+input {
+    border-radius: 10px;
+    border: transparent;
+    background-color: rgba(233, 222, 222, 0.8);
+    padding: 0 10px;
+}
+
+.adicionar {
+    background-color: rgb(196, 196, 196);
+}

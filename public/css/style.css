@@ -18,6 +18,9 @@ input {
 
 a {
     font-size: 2rem;
+    min-width: 100px;
+    display: inline-block;
+    color: gray;
 }
 
 h2 {

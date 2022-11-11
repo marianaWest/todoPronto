@@ -15,10 +15,12 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/style.css">
+
     <title>tudo pronto</title>
 </head>
 <body>
-    <div class="container">
+    <div >
         <% if (locals.messages.errors) { %>
             <% messages.errors.forEach( el => { %>
                 <div class="alert alert-danger"><%= el.msg %></div>
@@ -29,12 +31,13 @@
                 <div class="alert alert-danger"><%= el.msg %></div>
             <% }) %>    
         <% } %>
-        <form action="/login" method="POST">
-            <input type="email" name="email" placeholder="Email">
-            <input type="password" name="password" placeholder="Password">
-            <input type="submit">
+        <div class="row mt-2">
+            <form action="/login" method="POST">
+                <input type="email" name="email" placeholder="Email">
+                 <input type="password" name="password" placeholder="Password">
+                  <input type="submit" value="submit">
         </form>
-    
+        </div>         
     
     </div>
    

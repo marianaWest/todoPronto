@@ -1,4 +1,6 @@
-# Todo Pronto!
+# Todo Pronto!  
+<img width="400" alt="todo" src="https://user-images.githubusercontent.com/97693233/201401761-4e479976-860d-410c-bb62-2009fde98727.PNG">
+
 
 This simple app to track tasks is built using the MVC Architecture. It also has "authorization" so people can sign up. 
 
@@ -34,7 +36,6 @@ This simple app to track tasks is built using the MVC Architecture. It also has 
 
 
 
-[PLACE_FOR_YOUR_IMAGE]
 
 [PLACE_TO_ADD_LINK_FOR_DEPLOYED_VERSION]
 

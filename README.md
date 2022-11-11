@@ -34,12 +34,6 @@ This simple app to track tasks is built using the MVC Architecture. It also has 
  ---
 
 
-
-
-
-[PLACE_TO_ADD_LINK_FOR_DEPLOYED_VERSION]
-
-
 # What I have learned
 
 While I was building this project I have learned the fundamentals of MVC architecture, and using authorization.  

@@ -32,8 +32,6 @@ h2 {
     color: gray;
 } */
 
-
-
 .del {
     color: gray;
     font-size: 2rem;
@@ -52,4 +50,12 @@ input {
 
 .adicionar {
     background-color: rgb(196, 196, 196);
+}
+
+.login {
+   margin-top: 10vh;
+}
+
+.auth {
+    margin-top: 10vh;
 }
